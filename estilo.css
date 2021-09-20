@@ -65,11 +65,11 @@ color: rgb(246, 246, 246);
 }
 .texto1{
     padding-top: 1rem;
-    font-size: min(3rem,8.3vw);
+    font-size: 5rem;
    
 }
 .textoTopo h6{
-    font-size: 1.3rem;
+    font-size: 2rem;
     
     color: rgb(255, 255, 255);
 }
@@ -83,7 +83,7 @@ button{
     border-radius: 10px;
     background-color: black;
     color: white;
-    font-size: min(1rem,2.6vw);
+    font-size: 1.2rem;
     cursor: pointer;
     
 }
@@ -158,11 +158,14 @@ button:hover{
     align-items: center;
     justify-content: space-evenly;
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 .btn{
     background: rgb(255, 255, 255);
     border: blue solid 1px;
     color: black;
+   margin-right: .5rem;
+    
     
 }
 .btn:hover{
@@ -175,11 +178,15 @@ button:hover{
     background: rgb(255, 255, 255);
     border: rgb(25, 182, 5) solid 1px;
     color: black;
+    
 }
 .btn1:hover{
     background: rgb(1, 255, 34);
     border: rgb(255, 255, 255) solid 1px;
     color: rgb(255, 255, 255);
+}
+.titulo-preco{
+ margin-left: .5rem;
 }
 
 footer{
@@ -197,22 +204,59 @@ footer{
         width: 200px;
     }
     #textoTopo{
-     font-size: 1rem;
+     font-size: 1.5rem;
+    }
+    .texto1{
+        font-size: 3.5rem;
     }
 }
 
-@media(max-width:620px){
+@media(max-width:630px){
     .logo img{
         width: 170px;
        
     }
     #textoTopo{
-        font-size: .8rem;
+        font-size: 1rem;
        }
+       .texto1{
+        font-size: 3rem;
+    }
     footer{
         font-size: .6rem;
     }
 }
+@media(max-width:540px){
+    .texto1{
+        font-size: 2.5rem;
+    }
+}
+@media(max-width:446px){
+    .texto1{
+        font-size: 2.1rem;
+    }
+    button{
+        font-size: .8rem;
+    }
+}
+@media(max-width:380px){
+    .texto1{
+        font-size: 1.8rem;
+    }
+    #textoTopo{
+        font-size: .8rem;
+       }
+}
+@media(max-width:322px){
+    .texto1{
+        font-size: 1.6rem;
+    }
+    #textoTopo{
+        font-size: .7rem;
+       
+       }
+}
+
 
 
 
